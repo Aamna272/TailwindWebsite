@@ -2,368 +2,396 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-    <nav class="flex items-center w-[1440] h-[84]">
-        <div class="flex flex-row justify-between items-center w-[1440] h-[84] ">
-            <!-- <div class="flex flex-row  w-[154.49px] h-[24px] ml-[105px] mt-[30px] gap-[8px]">
-                <img class="w-[35] h-[24]" src="./images/Icon.svg" alt="">
-                <h1 class="bg[#263238] font-bold text-2xl">Nexcent</h1>
-            </div> -->
-            <img class="w-[24] h-[24] mt-[30px] ml-[105px] gap-[8px]" src="./images/Logo (3).png" alt="">
-            <div class="flex flex-row w-[588] h-[24] mt-[30px] ml-[166px] gap-[50px]">
-                <a href="#Home">Home</a>
-                <a href="#Home">Service</a>
-                <a href="#Home">Feature</a>
-                <a href="#Home">Product</a>
-                <a href="#Home">Testimonial</a>
-                <a href="#Home">FAQ</a>
-            </div>
-            <div class="flex  flex-row w-[182] h-[40] mt-[22px] ml-[34px] mr-[56px] gap-[14px]">
-                <a href="#"
-                    class=" w-[77] h-[40] bg-white text-[#4CAF4F] rounded-[6px]  py-[10px] px-[20px] gap-[10px] ">Login</a>
-                <a href="#"
-                    class="w-[91] h-[15] bg-[#4CAF4F] text-white rounded-[6px] px-[20px] py-[8px] gap-[10px]">Sign
-                    up</a>
+<body class="min-h-screen bg-white">
 
-            </div>
-        </div>
-    </nav>
-    <!-- <nav class="bg-white text-black flex items-center mt-[30px]">
-        <div class="container mx-auto flex flex-row justify-between items-center mr-[30px] ml-[30px]">
-            <div class="flex flex-row w-[154.49px] h-[24px] mt-[30px] ml-[105px] gap-[8px]">
-                <img class="w-[35] h-[24]" src="./images/Icon.svg" alt="">
-                <h1 class="bg[#263238] font-bold">Nexcent</h1>
-            </div>
-            <img class="w-[24] h-[24] mt-[30px] ml-[105px] gap-[8px]" src="./images/Logo (3).png" alt="">
+    <div class="max-w-[1440px] mx-auto flex flex-col gap-[40px]">
+        <nav class="h-[84px] flex items-center">
+            <div class="flex items-center justify-between w-full px-[105px]">
 
-            <img class="w-[35] h-[24]" src="./images/Icon.svg" alt="">
-            <h1 class="background-[#263238]">Nexcent</h1>
-            <ul class="flex flex-row justify-between items-center w-[588] h-[24] mt-[30px] ml-[166px] gap-[50px]">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Home">Service</a></li>
-                <li><a href="#Home">Feature</a></li>
-                <li><a href="#Home">Product</a></li>
-                <li><a href="#Home">Testimonial</a></li>
-                <li><a href="#Home">FAQ</a></li>
-                <div class="flex flex-row gap-4">
-                    <li><a href="#" class="bg-white text-[#4CAF4F] rounded-md py-3 px-5">Login</a></li>
-                    <li><a href="#"
-                            class="bg-[#4CAF4F] text-white rounded-[6px] w-[91px] h-40 gap-10 py-[8px] px-[10px] ">Sign
-                            up</a>
-                    </li>
+                <img src="./images/Logo (3).png" class=" h-[24px]" alt="Logo">
+
+                <div class="flex gap-[50px]">
+                    <a href="#">Home</a>
+                    <a href="#">Service</a>
+                    <a href="#">Feature</a>
+                    <a href="#">Product</a>
+                    <a href="#">Testimonial</a>
+                    <a href="#">FAQ</a>
                 </div>
-            </ul>
-        </div>
-    </nav> -->
+                <div class="flex gap-[14px]">
+                    <a class="text-[#4CAF4F] px-[20px] py-[10px]">Login</a>
+                    <a class="bg-[#4CAF4F] text-white px-[20px] py-[8px] rounded-[6px]">Sign up</a>
+                </div>
+            </div>
+        </nav>
 
-    <div
-        class="grid grid-cols-2 justify-center items-center bg-gray-200 w-[1440] h-[599] pb-[2px] pt-[16px] px-[144px] gap-[104px]">
-        <div class="container mx-auto flex flex-col mr-[30px] ml-[30px] gap-[32px]">
-            <h1 class=" font-semibold text-4xl text-[#000000]">Lessons and insights <br> <span
-                    class="text-[#4CAF4F]">from 8
-                    years</span></h1>
-            <p class="text-sm text-[#717171]">Where to grow your business as a photographer: site or social media?</p>
-            <a href="#"
-                class="bg-[#4CAF4F] text-white rounded-[4px] w-[128px] h-[52px] gap-10 py-[14px] px-[32px] ">Register</a>
+        <div class="bg-slate-200">
+            <div class="flex flex-col items-center justify-between px-[105px]">
+                <div class=" flex flex-row">
+                    <div class="flex flex-col gap-[32px] w-[588px]">
+                        <h1 class="text-4xl font-semibold">
+                            Lessons and insights <br>
+                            <span class="text-[#4CAF4F]">from 8 years</span>
+                        </h1>
+                        <p class="text-[#717171] text-sm">
+                            Where to grow your business as a photographer: site or social media?
+                        </p>
+                        <a
+                            class="bg-[#4CAF4F] text-white w-[128px] h-[52px] flex items-center justify-center rounded-[4px]">
+                            Register
+                        </a>
+                    </div>
+                    <img src="./images/Illustration.svg" class="w-[391px] h-[407px]" alt="">
+                </div>
+                <div class="flex flex-row justify-center items-center w-[46] h-[10] gap-[8px]">
+                    <img src="./images/Ellipse 5.svg" class="h-[10] w-[10]" alt="">
+                    <img src="./images/Ellipse 6.svg" class="h-[10] w-[10]" alt="">
+                    <img src="./images/Ellipse 7.svg" class="[h-10] w-[10]" alt="">
+                </div>
+            </div>
         </div>
-        <div class="">
-            <img src="./images/Illustration.svg" class="" alt="">
-        </div>
-        <div class="flex flex-row justify-center items-center pl-[420px] w-[46] h-[10] gap-[8px]">
-            <img src="./images/Ellipse 5.svg" class="h-[10] w-[10]" alt="">
-            <img src="./images/Ellipse 6.svg" class="h-[10] w-[10]" alt="">
-            <img src="./images/Ellipse 7.svg" class="[h-10] w-[10]" alt="">
-        </div>
-    </div>
 
-    <div class=" container mx-auto flex flex-col justify-center items-center  pb-[2px] pt-[16px] px-[144px] gap-[16px]">
-        <div class=" flex flex-col justify-center items-center w-[1110px] h-[76px] gap-0">
-            <h1 class=" font-semibold text-[#4D4D4D]-[600] text-2xl">Our Clients</h1><br>
+        <div class="flex flex-col items-center gap-[16px]">
+            <h2 class="text-2xl font-semibold text-[#4D4D4D]">Our Clients</h2>
             <p class="text-[#717171]">We have been working with some Fortune 500+ clients</p>
-        </div>
-        <div
-            class="flex flex-row items-center justify-between h-[98px] w-[1152px] ml-[30px] mr-[30px] py-[96px] px-[144px]">
-            <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo.svg" alt="">
-            <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="images/Logo (1).svg" alt="">
-            <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo (2).svg" alt="">
-            <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo (3).svg" alt="">
-            <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo (4).svg" alt="">
-            <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo (5).svg" alt="">
-            <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo (6).svg" alt="">
-        </div>
-    </div>
 
-    <div
-        class="container mx-auto flex flex-col justify-center items-center pt-[2px] px-[144px] gap-[16px] w-[1440] h-[416px]">
-        <div class="flex flex-col justify-center items-center w-[1440px] h-[120px] gap-[2px]">
-            <h2 class="font-semibold text-[#4D4D4D]-[600] text-2xl">Manage your entire community <br><span
-                    class="ml-16">in a single system</span>
-            </h2>
-            <p class="text-[#717171] text-xs">Who is Nextcent suitable for?</p>
+            <div class="flex justify-between w-[1152px] mt-[32px]">
+                <img src="./images/Logo.svg" class="w-[48px] h-[48px]" />
+                <img src="./images/Logo (1).svg" class="w-[48px] h-[48px]" />
+                <img src="./images/Logo (2).svg" class="w-[48px] h-[48px]" />
+                <img src="./images/Logo (3).svg" class="w-[48px] h-[48px]" />
+                <img src="./images/Logo (4).svg" class="w-[48px] h-[48px]" />
+                <img src="./images/Logo (5).svg" class="w-[48px] h-[48px]" />
+                <img src="./images/Logo (6).svg" class="w-[48px] h-[48px]" />
+            </div>
         </div>
 
-        <div
-            class="flex flex-row items-center justify-between h-[98px] w-[1152px] ml-[30px] mr-[30px] py-[96px] px-[144px] gap-[32px]">
+        <div class="mt-[40px]">
+            <div class="text-center mb-[40px]">
+                <h2 class="text-2xl font-semibold text-[#4D4D4D]">
+                    Manage your entire community <br> in a single system
+                </h2>
+                <p class="text-[#717171] text-sm">Who is Nexcent suitable for?</p>
+            </div>
+
+            <div class="flex justify-center gap-[32px]">
+                <div class="w-[299px] h-[260px] flex flex-col items-center gap-[8px] shadow-sm shadow-gray-300">
+                    <img src="./images/Icon copy.svg" class="w-[65px] h-[56px]" />
+                    <h3 class="font-bold text-center">Membership <br> Organizations</h3>
+                    <p class="text-xs text-center text-[#717171]">
+                        Our membership management software provides full automation of renewals and payments
+                    </p>
+                </div>
+
+                <div class="w-[299px] h-[260px] flex flex-col items-center gap-[8px] shadow-sm shadow-gray-300">
+                    <img src="./images/Icon (1).svg" class="w-[65px] h-[56px]" />
+                    <h3 class="font-bold text-center">National <br> Associations</h3>
+                    <p class="text-xs text-center text-[#717171]">
+                        Our membership management software provides full automation of renewals and payments
+                    </p>
+                </div>
+
+                <div class="w-[299px] h-[260px] flex flex-col items-center gap-[8px] shadow-sm shadow-gray-300">
+                    <img src="./images/Icon (2).svg" class="w-[65px] h-[56px]" />
+                    <h3 class="font-bold text-center">Clubs and <br> Groups</h3>
+                    <p class="text-xs text-center text-[#717171]">
+                        Our membership management software provides full automation of renewals and payments
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-[144px]">
+            <div class="flex justify-between items-center gap-[64px]">
+                <div class="w-[442px] h-[433px] flex justify-center">
+                    <img class="w-[441px] h-[328px]" src="./images/Frame 35.svg" alt="Illustration" />
+                </div>
+                <div class="flex flex-col w-[661px] gap-[32px]">
+                    <h2 class="font-semibold text-[#4D4D4D] text-[36px] leading-[44px]">
+                        The unseen of spending three <br />
+                        years at Pixelgrade
+                    </h2>
+
+                    <p class="text-[#717171] text-sm leading-[24px]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+                        justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque
+                        placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis.
+                        Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar,
+                        aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+                    </p>
+
+                    <a href="#" class="bg-[#4CAF4F] text-white rounded-[4px] w-[151px] h-[52px]
+               flex items-center justify-center">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-200 px-[144px] py-[40px]">
+            <div class="flex justify-between items-center gap-[96px]">
+                <div class="w-[540px] flex flex-col gap-[8px]">
+                    <h2 class="font-semibold text-[32px] text-[#4D4D4D] leading-[40px]">
+                        Helping a local <br />
+                        <span class="text-[#4CAF4F]">business reinvent itself</span>
+                    </h2>
+                    <p class="text-[#717171] text-sm">
+                        We reached here with our hard work and dedication
+                    </p>
+                </div>
+
+                <div class="flex flex-col gap-[40px] w-[540px]">
+
+                    <div class="flex gap-[40px]">
+                        <div class="flex items-center gap-[16px]">
+                            <img class="w-[48px] h-[48px]" src="/images/Icon (3) copy.svg" />
+                            <div>
+                                <h3 class="font-semibold">2,245,341</h3>
+                                <p class="text-sm text-[#717171]">Members</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-[16px]">
+                            <img class="w-[48px] h-[48px]" src="/images/Icon (5).svg" />
+                            <div>
+                                <h3 class="font-semibold">46,328</h3>
+                                <p class="text-sm text-[#717171]">Clubs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[40px]">
+                        <div class="flex items-center gap-[16px]">
+                            <img class="w-[48px] h-[48px]" src="/images/Icon (7).svg" />
+                            <div>
+                                <h3 class="font-semibold">828,867</h3>
+                                <p class="text-sm text-[#717171]">Event Bookings</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-[16px]">
+                            <img class="w-[48px] h-[48px]" src="/images/Icon (8).svg" />
+                            <div>
+                                <h3 class="font-semibold">1,926,436</h3>
+                                <p class="text-sm text-[#717171]">Payments</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="px-[144px] py-[40px]">
+            <div class="flex justify-between items-center gap-[64px]">
+                <div class="w-[442px] h-[433px] flex justify-center">
+                    <img class="w-[441px] h-[328px]" src="./images/pana.svg" alt="Illustration" />
+                </div>
+                <div class="flex flex-col w-[661px] gap-[32px]">
+                    <h2 class="font-semibold text-[#4D4D4D] text-[36px] leading-[44px]">
+                        How to design your site footer like <br /> we did
+                    </h2>
+
+                    <p class="text-[#717171] text-sm leading-[24px]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+                        justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque
+                        placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis.
+                        Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar,
+                        aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+                    </p>
+
+                    <a href="#" class="bg-[#4CAF4F] text-white rounded-[4px] w-[151px] h-[52px]
+               flex items-center justify-center">
+                        Learn More
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bg-gray-200 py-[32px]">
             <div
-                class=" flex flex-col items-center justify-center w-[299px] h-[260px] rounded-[8px] px-[32] py-[24] gap-[8px] bg-gray-200 ">
-                <img class="w-[65px] h-[56px]" src="./images/Icon copy.svg" alt="">
-                <h3 class="font-bold text-[#4D4D4D]-700"><span class="ml-1">Membership</span> <br>Organizations</h3>
-                <p class="text-[#717171] text-xs">Our membership management software <br> provides full automation of
-                    <br>
-                    membership
-                    renewals and payments
-                </p>
+                class="max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center gap-[78px] px-[24px] lg:px-[144px]">
+
+                <img class="w-[326px] h-[326px] rounded-[8px] object-cover" src="./images/image 9.svg" alt="" />
+
+                <div class="flex flex-col w-full lg:w-[748px] gap-[32px]">
+
+                    <p class="font-medium text-[#717171] text-sm leading-relaxed">
+                        Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
+                        lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
+                        enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim.
+                        Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula
+                        molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue
+                        ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis
+                        vestibulum pretium. Suspendisse potenti.
+                    </p>
+
+                    <h4 class="font-semibold text-[#4CAF4F] text-lg">
+                        Tim Smith
+                    </h4>
+
+                    <p class="font-medium text-[#717171] text-sm">
+                        British Dragon Boat Racing Association
+                    </p>
+
+                    <div class="flex flex-wrap items-center gap-[24px]">
+                        <img class="w-[48px] h-[48px] rounded-[8px]" src="/images/Logo.svg" alt="">
+                        <img class="w-[48px] h-[48px] rounded-[8px]" src="/images/Logo (1).svg" alt="">
+                        <img class="w-[48px] h-[48px] rounded-[8px]" src="/images/Logo (2).svg" alt="">
+                        <img class="w-[48px] h-[48px] rounded-[8px]" src="/images/Logo (3).svg" alt="">
+                        <img class="w-[48px] h-[48px] rounded-[8px]" src="/images/Logo (4).svg" alt="">
+                        <img class="w-[48px] h-[48px] rounded-[8px]" src="/images/Logo (5).svg" alt="">
+                        <img class="w-[48px] h-[48px] rounded-[8px]" src="/images/Logo (6).svg" alt="">
+                        <div class="gap-2 flex flex-row">
+                            <a class="font-semibold text-[#4CAF4F] text-sm ml-4">Meet All Customers</a>
+                            <img src="./images/Right.svg" class="w-[24px] h-[24px]" alt="">
+                        </div>
+                    </div>
+
+                </div>
             </div>
+        </div>
+
+        <div class="py-[40px]">
+            <div class="max-w-[1440px] mx-auto flex flex-col gap-[40px] px-[24px] lg:px-[144px]">
+                <div class="flex flex-col items-center text-center gap-[8px]">
+                    <h2 class="font-semibold text-[#4D4D4D] text-2xl">
+                        Caring is the new marketing
+                    </h2>
+
+                    <p class="max-w-[628px] font-medium text-[#717171] text-sm leading-relaxed">
+                        The Nexcent blog is the best place to read about the latest membership
+                        insights, trends and more. See who's joining the community, read about
+                        how our community are increasing their membership income and lot's more.
+                    </p>
+                </div>
+                <div class="grid grid-cols-3 gap-[32px]">
+                    <div class="flex flex-col items-center">
+                        <img src="./images/image 18.svg" class="w-full max-w-[368px] h-[286px] rounded-[8px]" alt="" />
+
+                        <div
+                            class="bg-white -mt-[80px] w-[317px] rounded-[8px] p-[16px] flex flex-col gap-[16px] shadow-md">
+                            <h4 class="font-semibold text-[#717171] text-lg text-center">
+                                Creating Streamlined Safeguarding Processes with OneRen
+                            </h4>
+
+                            <div class="flex items-center justify-center gap-[8px] cursor-pointer">
+                                <a class="font-semibold text-[#4CAF4F] text-lg">Read more</a>
+                                <img src="./images/Right.svg" class="w-[24px] h-[24px]" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./images/image 19.svg" class="w-full max-w-[368px] h-[286px] rounded-[8px]" alt="" />
+
+                        <div
+                            class="bg-white -mt-[80px] w-[317px] rounded-[8px] p-[16px] flex flex-col gap-[16px] shadow-md">
+                            <h4 class="font-semibold text-[#717171] text-lg text-center">
+                                What are your safeguarding responsibilities and how can you manage them?
+                            </h4>
+
+                            <div class="flex items-center justify-center gap-[8px] cursor-pointer">
+                                <a class="font-semibold text-[#4CAF4F] text-lg">Read more</a>
+                                <img src="./images/Right.svg" class="w-[24px] h-[24px]" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./images/image 20.svg" class="w-full max-w-[368px] h-[286px] rounded-[8px] " alt="" />
+
+                        <div
+                            class="bg-white -mt-[80px] w-[317px] rounded-[8px] p-[16px] flex flex-col gap-[16px] shadow-md">
+                            <h4 class="font-semibold text-[#717171] text-lg text-center">
+                                Revamping the Membership Model with Triathlon <br>Australia
+                            </h4>
+
+                            <div class="flex items-center justify-center gap-[8px] cursor-pointer">
+                                <a class="font-semibold text-[#4CAF4F] text-lg">Read more</a>
+                                <img src="./images/Right.svg" class="w-[24px] h-[24px]" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="py-[32px]">
             <div
-                class="flex flex-col justify-center items-center w-[299px] h-[260px] rounded-[8px] px-[32] py-[24] gap-[8px] bg-gray-200">
-                <img class="w-[65px] h-[56px]" src="./images/Icon (1).svg" alt="">
-                <h3 class="font-bold text-[#4D4D4D]"> <span class="ml-3">National</span> <br> Asscoiations</h3>
-                <p class=" text-[#717171] text-xs">Our membership management software <br> provides full
-                    automation of <br> membership
-                    renewals and payments</p>
-            </div>
-            <div
-                class=" justify-center items-center flex flex-col w-[299px] h-[260px] rounded-[8px] px-[32] py-[24] gap-[8px] bg-gray-200">
-                <img class="w-[65px] h-[56px]" src="./images/Icon (2).svg" alt="">
-                <h3 class="font-bold text-[#4D4D4D]-700">Clubs and <br> <span class="ml-3">Groups</span></h3>
-                <p class="text-[#717171] text-xs ">Our membership management software <br> provides full automation of
-                    <br>
-                    membership
-                    renewals and payments
-                </p>
-            </div>
-        </div>
-    </div>
+                class="max-w-[1440px] mx-auto flex flex-col items-center gap-[32px] px-[24px] lg:px-[144px] text-center">
 
-    <div
-        class=" container mx-auto flex flex-row justify-center items-center w-[1440] h-[433] overflow-x-scroll py-[16px] px-[144px]">
-        <div class="w-[442px] h-[433px] ">
-            <img class=" w-[441px] h-[328px]" src="./images/Frame 35.svg" alt="">
-        </div>
-        <div class=" flex flex-col  w-[661] h-[268] gap-[32px]">
-            <h2 class="font-semibold text-[#4D4D4D] text-2xl">The unseen of spending three <br> years at
-                Pixelgrade</h2>
-            <p class="text-[#717171] text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
-                justo ipsum. <br>Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem
-                <br>
-                sed porta. Nullam mattis
-                tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. <br> Etiam quis massa pulvinar,
-                aliquam
-                quam
-                vitae,
-                tempus sem. Donec elementum pulvinar odio.
-            </p>
-            <a href=""
-                class="bg-[#4CAF4F] text-white rounded-[4px] w-[151px] h-[52px] gap-10 py-[14px] px-[32px] ">Learn
-                More</a>
-        </div>
-    </div>
+                <h1 class="font-semibold text-[#263238] text-5xl lg:text-6xl leading-[1.2]">
+                    Pellentesque suscipit <br />
+                    <span class="ml-0 lg:ml-16">fringilla liberoeu.</span>
+                </h1>
 
-    <div class=" flex flex-row w-[1440] h-[288] justify-center items-center py-[16px] px-[144px] gap-[96px] bg-gray-200
-    ">
-        <div class="w-[540] h-[120] gap-[8px]">
-            <h2 class="w-[408] h-[88] font-semibold text-xl text-[#4D4D4D]">Helping a local <br> <span
-                    class="text-[#4CAF4F]">business
-                    reinvent
-                    itself</span>
-            </h2>
-            <p class="text-[#717171] text-sm">We reached here with our hard work and dedication</p>
-        </div>
-        <div class="flex flex-col w-[540] h-[160] gap-[40px]">
-            <div class="flex flex-row w-[540] h-[60] gap-[30px]">
-                <img class="h-[48] w-[48]" src="/images/Icon (3) copy.svg" alt="">
-                <div class="w-[191] h-[60]">
-                    <h3>2,245,341</h3>
-                    <p>Members</p>
-                </div>
-                <img class="h-[48] w-[48] pl-8" src="/images/Icon (5).svg" alt="">
-                <div class="w-[191] h-[60]">
-                    <h3>46,328</h3>
-                    <p>Clubs</p>
-                </div>
+                <a href="#"
+                    class="bg-[#4CAF4F] text-white rounded-[4px] w-[151px] h-[52px] flex items-center justify-center">
+                    Get a Demo
+                </a>
+
             </div>
-            <div class="flex flex-row w-[540] h-[60] gap-[30px]">
-                <img class="h-[48] w-[48]" src="/images/Icon (7).svg" alt="">
-                <div class="w-[191] h-[60]">
-                    <h3>828,867</h3>
-                    <p>Event Bookings</p>
+        </div>
+
+        <div class="bg-[#263238] text-white py-[64px]">
+            <div class="flex justify-between px-[165px]">
+                <div class="gap-16">
+                    <div class="flex flex-row">
+                        <img class="w-[43] h-[29]" src="./images/Icon (9).svg" alt="">
+                        <h1 class="text-2xl font-bold">Nexcent</h1>
+                    </div>
+                    <p class="text-sm mt-[16px] ">
+                        Copyright © 2020 Nexcent ltd.<br>All rights reserved
+                    </p>
+                    <div class="flex flex-row w-[176] h-[32] gap-[16px] mt-16">
+                        <img src="./images/Path (3).svg" alt="">
+                        <img class=" mt-[7.47] ml-[7.47]" src="./images/Path (4).svg" alt="">
+                        <img src="./images/Path (2).svg" alt="">
+                        <img src="./images/Path.svg" alt="">
+
+                    </div>
                 </div>
 
-                <img class="h-[48] w-[48]" src="/images/Icon (8).svg" alt="">
-                <div class="w-[191] h-[60]">
-                    <h3>1,926,436</h3>
-                    <p>Payments</p>
-                </div>
-            </div>
-        </div>
-    </div>
+                <div class="flex gap-[40px]">
+                    <div class="flex flex-col w-[160] h-[200] gap-[24px]">
+                        <h4 class="w-[160] h-[28] font-semibold text-[#FFFFFF] text-lg">Company</h4>
+                        <div class="flex flex-col w-[160] h-[148] gap-[12px]">
+                            <p class="text-[#F5F7FA] font-normal text-sm">About us</p>
+                            <p class="text-[#F5F7FA] font-normal text-sm"> Blog</p>
+                            <p class="text-[#F5F7FA] font-normal text-sm">Contact us</p>
+                            <p class="text-[#F5F7FA] font-normal text-sm">Pricing</p>
+                            <p class="text-[#F5F7FA] font-normal text-sm">Testimonials</p>
+                        </div>
+                    </div>
 
-    <div class="flex flex-row  justify-center items-center w-[1440] h-[433] overflow-x-scroll pt-[40px] px-[144px]">
-        <div class="inline-block w-[442px] h-[433px] ">
-            <img class=" w-[441px] h-[328px]" src="./images/pana.svg" alt="">
-        </div>
-        <div class=" flex flex-col  w-[661] h-[268] gap-[32px]">
-            <h2 class="font-semibold text-[#4D4D4D] text-2xl">How to design your site footer like <br> we did</h2>
-            <p class="text-[#717171] text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
-                justo ipsum. <br>Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem
-                <br>
-                sed porta. Nullam mattis
-                tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. <br> Etiam quis massa pulvinar,
-                aliquam
-                quam
-                vitae,
-                tempus sem. Donec elementum pulvinar odio.
-            </p>
-            <a href=""
-                class="bg-[#4CAF4F] text-white rounded-[4px] w-[151px] h-[52px] gap-10 py-[14px] px-[32px] ">Learn
-                More</a>
-        </div>
-    </div>
-
-    <div class="flex flex-row w-[1440] h-[390]  py-[32px] px-[144px] gap-[78px] bg-gray-200">
-
-        <img class=" w-[326px] h-[326px] rounded-[8px]" src="./images/image 9.svg" alt="">
-        <div class="flex flex-col h-[326] w-[748] gap-[32px]">
-            <p class="w-[748] h-[168] font-medium text-[#717171] text-sm">Maecenas dignissim justo eget nulla rutrum
-                molestie.
-                Maecenas
-                lobortis sem dui,
-                vel rutrum risus
-                tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim.
-                Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi
-                blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget
-                lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat
-                ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh
-                id sem dignissim finibus ac sit amet magna.</p>
-            <h4 class="w-[748] h-[28] font-semibold text-[#4CAF4F]">Tim Smith</h4>
-            <p class="font-medium text-[#717171] text-sm">British Dragon Boat Racing Association</p>
-            <div class="flex flex-row items-center justify-between h-[48px] w-[493px] gap-[41px] ">
-                <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo.svg" alt="">
-                <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="images/Logo (1).svg" alt="">
-                <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo (2).svg" alt="">
-                <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo (3).svg" alt="">
-                <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo (4).svg" alt="">
-                <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo (5).svg" alt="">
-                <img class="w-[48px] h-[48px] rounded-[8px] mt-[4px] ml-4px" src="/images/Logo (6).svg" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div class="flex flex-col w-[1440] h-[506] gap-[24px]">
-        <div class="flex flex-col justify-center items-center gap-[8px] w-[1110] h-[124]">
-            <h2 class="h-[44] w-[1110] font-semibold text-[#4D4D4D] text-xl">Caring is the new marketing</h2>
-            <p class="w-[628] h-[72] font-medium text-[#717171] text-sm items-center justify-center">The Nexcent blog is
-                the best place to read
-                about the latest membership insights,<br>
-                trends and more. See
-                who's joining the community, read about how our community <br> are increasing their membership income
-                and
-                lot's more.​</p>
-        </div>
-        <div class="grid grid-cols-3 w-[1440] h-[366] justify-between pr-[144px] pl-[144px] gap-8">
-            <div class=" flex flex-col w-[368] h-[366]">
-                <img src="./images/image 18.svg " class=" w-[368] h-[286] rounded-[8px]" alt="">
-                <div
-                    class="flex flex-col justify-center items-center w-[317] h-[176] rounded-[8px] p-[16px] gap-[16px]">
-                    <h4 class="w-[285] h-[84] font-semibold text-[#717171] text-lg">Creating Streamlined Safeguarding
-                        Processes
-                        with OneRen</h4>
-                    <div class="flex flex-row w-[285] h-[44] p-[8px] gap-[16px] ">
-                        <h4 class="w-[99] h-[28] font-semibold text-[#4CAF4F] text-lg align-middle">Read more</h4>
-                        <img src="./images/Right.svg " class="w-[24] h-[24]" alt="">
+                    <div class="flex flex-col w-[160] h-[200] gap-[24px]">
+                        <h4 class="w-[160] h-[28] font-semibold text-[#FFFFFF] text-lg">Support</h4>
+                        <div class="flex flex-col w-[160] h-[148] gap-[12px]">
+                            <p class="text-[#F5F7FA] font-normal text-sm">Help Center</p>
+                            <p class="text-[#F5F7FA] font-normal text-sm"> Terms of services</p>
+                            <p class="text-[#F5F7FA] font-normal text-sm">Legal</p>
+                            <p class="text-[#F5F7FA] font-normal text-sm">Privacy Policy</p>
+                            <p class="text-[#F5F7FA] font-normal text-sm">Status</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-[255] h-[92] gap-[24px]">
+                        <h1 class=" w-[160] h-[28] text-[#FFFFFF] font-semibold text-lg">Stay up to date</h1>
+                        <div class="flex flex-row w-[100] h-[40] mt-[16px] rounded-[8px] bg-gray-600 py-2 px-3">
+                            <input type="email" class="placeholder-gray-300" placeholder="Your email address">
+                            <img src="./images/send.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class=" flex flex-col w-[368] h-[366]">
-                <img src="./images/image 19.svg" class="w-[368] h-[286] rounded-[8px]" alt="">
-                <div class="flex flex-col w-[317] h-[176] rounded-[8px] p-[16px] gap-[16px]">
-                    <h4 class="w-[285] h-[84] font-semibold text-[#717171] text-lg">What are your safeguarding
-                        responsibilities and how can you manage them?</h4>
-                    <div class="flex flex-row w-[285] h-[44] p-[8px] gap-[16px] ">
-                        <h4 class="w-[99] h-[28] font-semibold text-[#4CAF4F] text-lg align-middle">Read more</h4>
-                        <img src="./images/Right.svg" class="w-[24] h-[24]" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class=" flex flex-col w-[368] h-[366]">
-                <img src="./images/image 20.svg" class=" w-[368] h-[286] rounded-[8px]" alt="">
-                <div class="flex flex-col w-[317] h-[176] rounded-[8px] p-[16px] gap-[16px]">
-                    <h4 class=" w-[285] h-[84] font-semibold text-[#717171] text-lg flex items-center justify-center">
-                        Revamping the Membership Model with
-                        Triathlon <br>Australia</h4>
-                    <div class="flex flex-row w-[285] h-[44] p-[8px] gap-[16px] ">
-                        <h4 class="w-[99] h-[28] font-semibold text-[#4CAF4F] text-lg align-middle">Read more</h4>
-                        <img src="./images/Right.svg" class="w-[24] h-[24]" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="flex flex-col justify-center items-center h-[300] w-[1440] pt-[32px] pb-[32px] gap-[32px]">
-        <h1 class="w-[887] h-[152] font-semibold text-[#263238] text-6xl">Pellentesque suscipit <br> <span
-                class="ml-16">fringilla
-                liberoeu.</span>
-        </h1>
-        <a href="" class="bg-[#4CAF4F] text-white rounded-[4px] w-[151px] h-[52px] gap-10 py-[14px] px-[32px] ">Get a
-            Demo</a>
-    </div>
-
-    <div class="flex flex-row justify-center items-center w-[1440] h-[328] py-[64px] px-[165] gap-[125px] bg-[#263238]">
-        <div class="flex flex-col w-[350] h-[189] gap-[40px]">
-            <div class="flex flex-row w-[191px] h-[29px] gap-[9px]">
-                <img class="w-[43] h-[29]" src="./images/Icon (9).svg" alt="">
-                <h1 class="text-[#FFFFFF] w-[137] h-[25] font-bold">Nexcent</h1>
-            </div>
-            <div class="flex flex-col w-[350] h-[48] gap-[8px]">
-                <p class="text-[#F5F7FA] font-normal text-sm">Copyright © 2020 Nexcent ltd. <br>All rights reserved
-                </p>
-            </div>
-            <div class="flex flex-row w-[176] h-[32] gap-[16px]">
-                <img src="./images/Path (3).svg" alt="">
-                <img class=" mt-[7.47] ml-[7.47]" src="./images/Path (4).svg" alt="">
-                <img src="./images/Path (2).svg" alt="">
-                <img src="./images/Path.svg" alt="">
-
-            </div>
         </div>
-        <div class="flex flex-row w-[635] h-[200] gap-[30px]">
-            <div class="flex flex-col w-[160] h-[200] gap-[24px]">
-                <h4 class="w-[160] h-[28] font-semibold text-[#FFFFFF] text-lg">Company</h4>
-                <div class="flex flex-col w-[160] h-[148] gap-[12px]">
-                    <p class="text-[#F5F7FA] font-normal text-sm">About us</p>
-                    <p class="text-[#F5F7FA] font-normal text-sm"> Blog</p>
-                    <p class="text-[#F5F7FA] font-normal text-sm">Contact us</p>
-                    <p class="text-[#F5F7FA] font-normal text-sm">Pricing</p>
-                    <p class="text-[#F5F7FA] font-normal text-sm">Testimonials</p>
-                </div>
-            </div>
-            <div class="flex flex-col w-[160] h-[200] gap-[24px]">
-                <h4 class="w-[160] h-[28] font-semibold text-[#FFFFFF] text-lg">Support</h4>
-                <div class="flex flex-col w-[160] h-[148] gap-[12px]">
-                    <p class="text-[#F5F7FA] font-normal text-sm">Help Center</p>
-                    <p class="text-[#F5F7FA] font-normal text-sm"> Terms of services</p>
-                    <p class="text-[#F5F7FA] font-normal text-sm">Legal</p>
-                    <p class="text-[#F5F7FA] font-normal text-sm">Privacy Policy</p>
-                    <p class="text-[#F5F7FA] font-normal text-sm">Status</p>
-                </div>
-            </div>
-            <div class="flex flex-col w-[255] h-[92] gap-[24px]">
-                <h1 class=" w-[160] h-[28] text-[#FFFFFF] font-semibold text-lg">Stay up to date</h1>
-                <div class="flex flex-row w-[100] h-[40] mt-[16px] rounded-[8px] bg-gray-600 py-2 px-3">
-                    <input type="email" class="placeholder-gray-300" placeholder="Your email address">
-                    <img src="./images/send.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
