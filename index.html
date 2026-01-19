@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body style="font-family: inter, san-serif;" class="min-h-screen bg-white font-inter">
+<body style="font-family: inter, san-serif;" class="min-h-screen bg-white font-inter gap-[40px]">
     <div class="bg-[#F5F7FA]">
         <header class="">
             <div class=" max-w-[1440px] mx-auto h-[84px] flex items-center justify-between px-[105px] gap-[124px]">
@@ -21,12 +21,12 @@
                     <img src="./images/Icon (10).svg" class="h-[24px]" alt="Logo">
                     <h1 class="font-bold text-3xl text-[#263238] pl-1 h-[24px]">Nexcent</h1>
                     <nav class="flex gap-[50px] pl-[166px]">
-                        <a href="#" class="font-medium text-base text-[#18191F]">Home</a>
-                        <a href="#" class="font-medium text-base text-[#18191F]">Service</a>
-                        <a href="#" class="font-medium text-base text-[#18191F]">Feature</a>
-                        <a href="#" class="font-medium text-base text-[#18191F]">Product</a>
-                        <a href="#" class="font-medium text-base text-[#18191F]">Testimonial</a>
-                        <a href="#" class="font-medium text-base text-[#18191F]">FAQ</a>
+                        <a href="#" class="font-medium text-base text-[#18191F] hover:text-[#4CAF4F]">Home</a>
+                        <a href="#" class="font-medium text-base text-[#18191F] hover:text-[#4CAF4F]">Service</a>
+                        <a href="#" class="font-medium text-base text-[#18191F] hover:text-[#4CAF4F]">Feature</a>
+                        <a href="#" class="font-medium text-base text-[#18191F] hover:text-[#4CAF4F]">Product</a>
+                        <a href="#" class="font-medium text-base text-[#18191F] hover:text-[#4CAF4F]">Testimonial</a>
+                        <a href="#" class="font-medium text-base text-[#18191F] hover:text-[#4CAF4F]">FAQ</a>
                     </nav>
                 </div>
                 <div class="flex gap-[14px] text-center items-center">
@@ -62,10 +62,12 @@
 
                     <img src="./images/Illustration.svg" class="w-[391px] h-[407px]" alt="">
                 </div>
-                <div class="flex mt-[70px] flex-row justify-center items-center gap-2">
-                    <img src="./images/Ellipse 5.svg" alt="">
-                    <img src="./images/Ellipse 6.svg" alt="">
-                    <img src="./images/Ellipse 7.svg" alt="">
+                <div class="flex items-center justify-center">
+                    <div class="flex mt-[70px] flex-row justify-center items-center gap-2 mb-[16px] w-[46px] h-[10px]">
+                        <img src="./images/Ellipse 5.svg" alt="">
+                        <img src="./images/Ellipse 6.svg" alt="">
+                        <img src="./images/Ellipse 7.svg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -199,7 +201,7 @@
                         <div class="flex items-center gap-[16px]">
                             <img class="w-[48px] h-[48px]" src="/images/Icon (3) copy.svg" />
                             <div>
-                                <h3 class="font-bold text-[28px] leading-[36px]">2,245,341</h3>
+                                <h3 class="font-bold text-[28px] leading-[36px] text-[#4D4D4D]">2,245,341</h3>
                                 <p class="text-base font-normal text-[#717171]">Members</p>
                             </div>
                         </div>
@@ -207,7 +209,7 @@
                         <div class="flex items-center gap-[16px]">
                             <img class="w-[48px] h-[48px]" src="/images/Group 2.svg" />
                             <div>
-                                <h3 class="font-bold text-[28px] leading-[36px]">46,328</h3>
+                                <h3 class="font-bold text-[28px] leading-[36px] text-[#4D4D4D]">46,328</h3>
                                 <p class="text-base font-normal text-[#717171]">Clubs</p>
                             </div>
                         </div>
@@ -217,7 +219,7 @@
                         <div class="flex items-center gap-[16px]">
                             <img class="w-[48px] h-[48px]" src="/images/Icon (7).svg" />
                             <div>
-                                <h3 class="font-bold text-[28px] leading-[36px]">828,867</h3>
+                                <h3 class="font-bold text-[28px] leading-[36px] text-[#4D4D4D]">828,867</h3>
                                 <p class="text-base font-normal text-[#717171]">Event Bookings</p>
                             </div>
                         </div>
@@ -225,7 +227,7 @@
                         <div class="flex items-center gap-[16px]">
                             <img class="w-[48px] h-[48px]" src="/images/Icon (8).svg" />
                             <div>
-                                <h3 class="font-bold text-[28px] leading-[36px]">1,926,436</h3>
+                                <h3 class="font-bold text-[28px] leading-[36px] text-[#4D4D4D]">1,926,436</h3>
                                 <p class="text-base font-normal text-[#717171]">Payments</p>
                             </div>
                         </div>
@@ -315,11 +317,11 @@
                             <img class="w-[48px] h-[48px]" src="/images/Logo (5).svg" alt="">
                         </div>
                         <div
-                            class="flex items-center gap-[8px] hover:border hover:border-[#4CAF4F] hover:rounded-[6px] hover:p-[2px] transition duration-300 ease-in-out">
-                            <a class="font-semibold text-[#4CAF4F] text-xl cursor-pointer align-middle">
+                            class="flex items-center gap-[8px] cursor-pointer hover:underline transition duration-300 ease-in-out">
+                            <a class="font-semibold text-[#4CAF4F] text-xl align-middle">
                                 Meet all customers
                             </a>
-                            <img src="./images/Right.svg" class="w-[24px] h-[24px]" alt="">
+                            <img src="./images/Right.svg" class="w-[14.59px] h-[8px]" alt="">
                         </div>
                     </div>
                 </div>
@@ -354,10 +356,9 @@
                         </h4>
 
                         <div
-                            class="flex items-center justify-center gap-[8px] cursor-pointer border border-transparent  hover:bg-transparent
-                         hover:border hover:border-[#4CAF4F]  hover:rounded-[6px] hover:p-[8px] transition duration-300 ease-in-out ">
+                            class="flex items-center justify-center gap-[8px] cursor-pointer hover:underline transition duration-300 ease-in-out ">
                             <a class="font-semibold text-[#4CAF4F] text-lg text-center">Readmore</a>
-                            <img src="./images/Right.svg" class="w-[24px] h-[24px]" alt="">
+                            <img src="./images/Right.svg" class="w-[14.59px] h-[8px]" alt="">
                         </div>
                     </div>
                 </div>
@@ -372,10 +373,9 @@
                         </h4>
 
                         <div
-                            class="flex items-center justify-center gap-[8px] cursor-pointer border border-transparent  hover:bg-transparent
-                         hover:border hover:border-[#4CAF4F]  hover:rounded-[6px] hover:p-[8px] transition duration-300 ease-in-out">
+                            class="flex items-center justify-center gap-[8px] cursor-pointer hover:underline transition duration-300 ease-in-out">
                             <a class="font-semibold text-[#4CAF4F] text-lg text-center">Readmore</a>
-                            <img src="./images/Right.svg" class="w-[24px] h-[24px]" alt="">
+                            <img src="./images/Right.svg" class="w-[14.59px] h-[px]" alt="">
                         </div>
                     </div>
                 </div>
@@ -390,10 +390,9 @@
                         </h4>
 
                         <div
-                            class="flex items-center justify-center gap-[8px] cursor-pointer border border-transparent  hover:bg-transparent
-                         hover:border hover:border-[#4CAF4F]  hover:rounded-[6px] hover:p-[8px] transition duration-300 ease-in-out">
+                            class="flex items-center justify-center gap-[8px] cursor-pointer hover:underline transition duration-300 ease-in-out">
                             <a class="font-semibold text-[#4CAF4F] text-lg text-center">Readmore</a>
-                            <img src="./images/Right.svg" class="w-[24px] h-[24px]" alt="">
+                            <img src="./images/Right.svg" class="w-[14.59px] h-[8px]" alt="">
                         </div>
                     </div>
                 </div>
@@ -407,15 +406,15 @@
     <section class="py-[64px] bg-[#F5F7FA]">
         <div class="max-w-[1440px] mx-auto px-[144px] text-center flex flex-col items-center gap-[32px]">
 
-            <h1 class="font-semibold text-[#263238] text-6xl lg:text-6xl leading-[1.2]">
-                Pellentesque suscipit <br />
-                <span class="ml-0 lg:ml-16">fringilla liberoeu.</span>
+            <h1 class="font-semibold text-[#263238] text-[64px] leading-[76px] h-[152px] w-[887px]">
+                Pellentesque suscipit
+                <span class="ml-0 lg:ml-16">fringilla libero eu.</span>
             </h1>
             <button
                 class=" group flex items-center justify-center bg-[#4CAF4F] px-[14px] py-[16px] cursor-pointer rounded-[4px] gap-[8px] w-[172px] h-[52px] text-[#FFFFFF] hover:bg-transparent hover:border hover:border-[#4CAF4F] hover:text-[#4CAF4F] hover:rounded-[4px] transition duration-300 ease-in-out">
                 Get a Demo
-                <img src="./images/Right (2).svg" class=" block group-hover:hidden w-[24px] h-[24px]" alt="">
-                <img src="./images/Right.svg" class=" hidden group-hover:block w-[24px] h-[24px]" alt="">
+                <img src="./images/Down.svg" class=" block group-hover:hidden w-[11.44px] h-[6px] " alt="">
+                <img src="./images/Right.svg" class=" hidden group-hover:block w-[11.44px] h-[6px] " alt="">
 
 
             </button>
@@ -453,32 +452,36 @@
                 <div class="flex flex-col gap-[24px]">
                     <h4 class="font-semibold text-xl">Company</h4>
                     <div class="flex flex-col gap-[12px]">
-                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer">About us</p>
-                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer">Blog</p>
-                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer">Contact us</p>
-                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer">Pricing</p>
-                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer">Testimonials</p>
+                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer hover:text-[#4CAF4F]">About us</p>
+                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer hover:text-[#4CAF4F]">Blog</p>
+                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer hover:text-[#4CAF4F]">Contact us</p>
+                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer hover:text-[#4CAF4F]">Pricing</p>
+                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer hover:text-[#4CAF4F]">Testimonials
+                        </p>
                     </div>
                 </div>
 
                 <div class="flex flex-col gap-[24px]">
                     <h4 class="font-semibold text-xl">Support</h4>
                     <div class="flex flex-col gap-[12px] text-sm ">
-                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer">Help Center</p>
-                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer">Terms of service</p>
-                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer">Legal</p>
-                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer">Privacy Policy</p>
-                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer">Status</p>
+                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer hover:text-[#4CAF4F]">Help Center
+                        </p>
+                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer hover:text-[#4CAF4F]">Terms of
+                            service</p>
+                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer hover:text-[#4CAF4F]">Legal</p>
+                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer hover:text-[#4CAF4F]">Privacy Policy
+                        </p>
+                        <p class="font-normal text-sm text-[#F5F7FA] cursor-pointer hover:text-[#4CAF4F]">Status</p>
                     </div>
                 </div>
 
                 <div class="flex flex-col gap-[24px]">
                     <h4 class="font-semibold text-lg">Stay up to date</h4>
 
-                    <div class="flex items-center gap-[8px] bg-[#4D4D4D] px-[12px] py-[10px] rounded-[8px]">
+                    <div class="flex items-center gap-[8px] bg-[#525b60] px-[12px] py-[10px] rounded-[8px]">
                         <input type="email" placeholder="Your email address"
-                            class="bg-transparent placeholder-[#D9DBE1] placeholder:text-sm placeholder:font-normal" />
-                        <img src="./images/send.svg" alt="Send">
+                            class="bg-transparent placeholder:text-[#D9DBE1] placeholder:text-sm placeholder:font-normal" />
+                        <img src="./images/send.svg" alt="">
                     </div>
 
                 </div>
@@ -487,7 +490,6 @@
 
         </div>
         <div class="flex-1"></div>
-
     </footer>
     <div class="flex-1"></div>
 </body>
